@@ -15,8 +15,6 @@ class Reviews extends Model
         'user_id',
         'rating',
         'comment',
-        'created_at',
-        'updated_at',
     ];
 
     // Relasi ke tabel Books
