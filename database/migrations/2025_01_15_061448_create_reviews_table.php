@@ -17,7 +17,6 @@ return new class extends Migration
             $table->integer("user_id");
             $table->string("rating");
             $table->string("comment");
-            $table->integer("created_at");
             $table->timestamps();
         });
     }
